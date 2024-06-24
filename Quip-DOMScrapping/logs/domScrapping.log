@@ -1,0 +1,24 @@
+2024-06-24T15:41:45.188+05:30  INFO 1436 --- [Quip-DOMScrapping] [main] com.mk.DOMScrappingApplication           : Starting DOMScrappingApplication using Java 17.0.11 with PID 1436 (C:\GIT-CLONE\Quip-DOMScrapping\Quip-WebScrapping\target\classes started by mural in C:\GIT-CLONE\Quip-DOMScrapping\Quip-WebScrapping)
+2024-06-24T15:41:45.190+05:30  INFO 1436 --- [Quip-DOMScrapping] [main] com.mk.DOMScrappingApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-06-24T15:41:46.278+05:30  INFO 1436 --- [Quip-DOMScrapping] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9999 (http)
+2024-06-24T15:41:46.290+05:30  INFO 1436 --- [Quip-DOMScrapping] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-24T15:41:46.290+05:30  INFO 1436 --- [Quip-DOMScrapping] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-24T15:41:46.356+05:30  INFO 1436 --- [Quip-DOMScrapping] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-24T15:41:46.357+05:30  INFO 1436 --- [Quip-DOMScrapping] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1114 ms
+2024-06-24T15:41:46.720+05:30  INFO 1436 --- [Quip-DOMScrapping] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9999 (http) with context path '/'
+2024-06-24T15:41:46.728+05:30  INFO 1436 --- [Quip-DOMScrapping] [main] com.mk.DOMScrappingApplication           : Started DOMScrappingApplication in 1.936 seconds (process running for 2.317)
+2024-06-24T15:42:19.601+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24T15:42:19.603+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-24T15:42:19.606+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-24T15:42:40.690+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-3] c.mk.controller.DOMScrappingController   : domScrapping(): Validation of the given url started.
+2024-06-24T15:42:42.640+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-3] c.mk.controller.DOMScrappingController   : Connection established successfully.
+2024-06-24T15:42:42.641+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-3] c.mk.controller.DOMScrappingController   : domScrapping(): Given url is valid.
+2024-06-24T15:42:49.959+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-4] c.mk.controller.DOMScrappingController   : domScrapping(): Validation of the given url started.
+2024-06-24T15:42:49.960+05:30 ERROR 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-4] c.mk.controller.DOMScrappingController   : domScrapping(): Given url is not valid.
+2024-06-24T15:42:57.804+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-6] c.mk.controller.DOMScrappingController   : domScrapping(): Validation of the given url started.
+2024-06-24T15:42:57.806+05:30 ERROR 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-6] c.mk.controller.DOMScrappingController   : domScrapping(): Given url is not valid.
+2024-06-24T15:43:03.481+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-8] c.mk.controller.DOMScrappingController   : domScrapping(): Validation of the given url started.
+2024-06-24T15:43:03.482+05:30 ERROR 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-8] c.mk.controller.DOMScrappingController   : domScrapping(): Given url is not valid.
+2024-06-24T15:43:11.445+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-10] c.mk.controller.DOMScrappingController   : domScrapping(): Validation of the given url started.
+2024-06-24T15:43:12.156+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-10] c.mk.controller.DOMScrappingController   : Connection established successfully.
+2024-06-24T15:43:12.157+05:30  INFO 1436 --- [Quip-DOMScrapping] [http-nio-9999-exec-10] c.mk.controller.DOMScrappingController   : domScrapping(): Given url is valid.
